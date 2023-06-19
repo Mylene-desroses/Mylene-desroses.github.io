@@ -39,12 +39,15 @@ p {
 
 .box {
   margin: 30px;
-  /*width: 400px; */
   padding: 20px;
   background: linear-gradient(45deg, #FA897B, #FFDD94);
   text-align: center;
   border-radius: 4px;
   box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+.box img {
+  width: 200px;
 }
 
 .container {
