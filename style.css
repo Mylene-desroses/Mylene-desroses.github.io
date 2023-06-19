@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap');
+
+body {
+  background-color: #F8F9FC;
+  font-family: Quicksand;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+p {
+  color: white;
+  font-size: 18px;
+}
+
+#image_circle {
+  border-radius: 50%;
+}
+
+.btn-white {
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px 28px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn-white:hover {
+  background-color: #FFDD94;
+}
+
+.box {
+  margin: 30px;
+  /*width: 400px; */
+  padding: 20px;
+  background: linear-gradient(45deg, #FA897B, #FFDD94);
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.inline-list {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.inline-list li {
+  display: inline-block;
+  padding: 0px, 20px;
+  margin: 5px;
+  font-size: 40px;
+}
+
+i {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+i:hover {
+  color: rgb(255, 255, 255);
+}
+
+/* media queries*/
+/*------------------------------------------------------------------------------*/
+@media (max-width: 960px) {
+
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 600px;
+  }
+
+}
+
+@media (max-width: 720px) {
+
+  .container {
+    width: 500px;
+  }
+
+}
+
+@media (max-width: 540px) {
+
+  .container {
+    width: 300px;
+  }
+
+}
